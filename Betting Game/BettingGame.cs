@@ -14,6 +14,23 @@ namespace gambler
             int bet = 1;
             Console.WriteLine("Total money : + money ");
         }
-    }
+        public void FinalStake()
+        {
+            int stake = 100;
+            int bet = 1;
+            stake = stake + bet;
+            if (stake > 100)
+            {
+                Console.WriteLine("Gamber wins");
+            }
+            else
+            {
+                Console.WriteLine("Gamber loose");
 
+            }
+        }
+    }
 }
+
+
+
